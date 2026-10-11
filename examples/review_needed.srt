@@ -1,0 +1,9 @@
+10
+00:00:01,000 --> 00:00:04,000
+This synthetic subtitle deliberately exceeds the default character limit.
+
+20
+00:00:03,000 --> 00:00:06,000
+First line for review.
+Second line for review.
+Third line exceeds the line-count limit.

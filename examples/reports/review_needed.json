@@ -1,0 +1,21 @@
+{
+  "file": "review_needed.srt",
+  "findings": [
+    {
+      "cue": 10,
+      "level": "WARNING",
+      "issue": "Line 1: 73 > 42 characters"
+    },
+    {
+      "cue": 20,
+      "level": "WARNING",
+      "issue": "Overlapping cues"
+    },
+    {
+      "cue": 20,
+      "level": "WARNING",
+      "issue": "Too many lines: 3"
+    }
+  ],
+  "finding_count": 3
+}

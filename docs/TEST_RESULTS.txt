@@ -1,0 +1,15 @@
+Verification date: 2026-10-12 (Asia/Taipei)
+Command: python3 -m unittest discover -s tests -v
+
+test_bad_time (test_srt.TestSRT.test_bad_time) ... ok
+test_empty_text_has_specific_warning (test_srt.TestSRT.test_empty_text_has_specific_warning) ... ok
+test_long_line (test_srt.TestSRT.test_long_line) ... ok
+test_overlap (test_srt.TestSRT.test_overlap) ... ok
+test_source_cue_index_is_reported (test_srt.TestSRT.test_source_cue_index_is_reported) ... ok
+test_stamp (test_srt.TestSRT.test_stamp) ... ok
+test_valid (test_srt.TestSRT.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK
