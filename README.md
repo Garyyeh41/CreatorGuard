@@ -6,6 +6,12 @@ CreatorGuard proposes local-first quality control for creative production. This 
 
 Competition context: Battlefield Lightning / Creator AI.
 
+## Final Stage I demo — 15 October 2026
+
+[Watch the final CreatorGuard 1080p demo on YouTube](https://youtu.be/oko4Jqr-vPE).
+
+This Stage I concept demo presents five historical production cases and the proposed human-led review workflow. The evidence footage comes from the creator's earlier film/music-video production; it is **not** evidence of automated visual detection, automated repair, or ASUS UGen300 hardware integration. The executable prototype in this repository is the rule-based SRT checker described below.
+
 ## Implemented prototype
 
 The Python checker reads one SRT file and prints a JSON report. It checks:
@@ -72,6 +78,10 @@ Private production footage, original lyric SRT files, and conversation history a
 - Audio-reference alignment and bilingual correspondence checks.
 - Visual checks against creator-defined scene rules.
 - Evidence timestamps and a human approval interface.
-- ASUS UGen300 integration, compatibility testing, and measured performance.
+- Explore planned AI workload offloading: run **compatible local visual-inspection model inference** on the ASUS UGen300, potentially reducing host CPU/GPU workloads while creators continue editing. Test model/hardware compatibility and measure actual performance in Stage II; no acceleration, zero-lag behavior, or resource savings are yet demonstrated.
 
-These items have not been implemented or benchmarked in this repository. See [implementation status](docs/IMPLEMENTATION_STATUS.md) and [verification notes](docs/VERIFICATION.md).
+## Proposed product and business validation
+
+CreatorGuard is proposed as **one human-centered, model-agnostic creative QC application**, not another generative AI platform. Potential customers include individual creators and small studios; creator/studio licensing is a proposed business approach. Customer demand, willingness to pay, pricing, and commercial results have **not** been validated.
+
+These items have not been implemented, commercially validated, or benchmarked in this repository. See [implementation status](docs/IMPLEMENTATION_STATUS.md) and [verification notes](docs/VERIFICATION.md).
