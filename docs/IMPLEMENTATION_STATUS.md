@@ -14,9 +14,15 @@ Case 05 retains the original 03:25–03:53 source segment, including its origina
 
 The Demo's proposed warning interface expresses the intended human-in-the-loop workflow: creator rules, checking, evidence/warning, and human decision.
 
+The final Stage I 1080p demo (15 October 2026) is available at https://youtu.be/oko4Jqr-vPE. It illustrates historical evidence and proposed workflows, not newly implemented automation.
+
 ## Planned integration
 
 ASUS UGen300 is the proposed hardware target. Device integration and acceleration have not been implemented or tested here. No measured latency, accuracy, hardware compatibility, or accelerator benchmark is claimed.
+
+**Planned AI workload offloading (Stage II evaluation):** CreatorGuard will explore whether compatible local visual-inspection models can run on ASUS UGen300 to reduce some host CPU/GPU inference work while creators continue editing. Model compatibility, device execution, host resource use, latency, and editing responsiveness require actual testing. There is no claim of guaranteed acceleration, zero lag, or proven resource savings.
+
+**Product direction:** One human-centered, model-agnostic creative QC application with potential creator/studio licensing. Customer demand, willingness to pay, commercial pricing, and commercial benefits remain proposed and unvalidated.
 
 Local-first AI checks are a development direction. The implemented SRT checker uses no network calls, but this property alone does not validate the privacy or performance of future AI components.
 
